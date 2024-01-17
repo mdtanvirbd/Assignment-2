@@ -1,19 +1,38 @@
 @media screen and(max-width:600px) {
     .header-section{
-        flex-direction: column;
-        justify-content: center;
-    }
-    .items-container{
-        flex-direction: column;
-    }
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+        text-align: center; 
+  }
+  .nav-container {
+    margin-bottom: 10px;
+  }
+
+  .nav-icon {
+    margin-top: 5px; 
+  }
+
+  .icon-color {
+    display: block;
+  }
+
+  .items-container {
+    margin-top: 10px; 
+  }
+
+  .items-container a {
+    display: block; 
+    margin-bottom: 8px; 
+  }
+    
+    
     .Banner{
         direction: column;
     }
     .Banner-header{
         flex-direction: column;
     }
-
-
     .main-1st-div {
         text-align: center; 
       }

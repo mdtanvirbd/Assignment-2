@@ -2,11 +2,9 @@
 
 body{
     font-family: 'Mulish', sans-serif;
-    max-width: 100%;
-    margin-left: 160px;     
+         
 }
 .header-section{
-    max-width: 1440px;
     display: flex;
     margin: 0 auto;
 }
@@ -51,7 +49,7 @@ body{
 .Banner{
     width:1173px;
     height: 500px;
-    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);   
+    background-image: url(../assest/Group\ 13\ \(1\)\ \(1\).png)   
 }
 .Banner-header{
     color: #FFF;
@@ -103,6 +101,7 @@ body{
 }
 .main-contain{
     display: flex; 
+    width: 100%;
 }
 .main-1st-div{
     width: 50%;
@@ -220,6 +219,7 @@ body{
 .price{
     width: 550px;
     height: 275px;
+    margin-top: 20px;
     border-radius: 16px;
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
