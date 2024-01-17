@@ -1,8 +1,139 @@
 @media screen and(max-width:600px) {
     .header-section{
         flex-direction: column;
+        justify-content: center;
     }
     .items-container{
         flex-direction: column;
     }
+    .Banner{
+        direction: column;
+    }
+    .Banner-header{
+        flex-direction: column;
+    }
+
+
+    .main-1st-div {
+        text-align: center; 
+      }
+      .main-ul {
+        padding: 0; 
+        list-style: none; 
+      }
+      .main-li {
+        margin-bottom: 10px;
+      }
+      .main-img {
+        width: 100%; 
+        margin-top: 20px; 
+      }
+      .imag-section {
+        text-align: center; /* Center the content */
+      }
+      .imag-section div {
+        margin-bottom: 20px; 
+      }
+     .des-1st-pic,
+     .des-1st-pic,
+     .des-2nd-pic1,
+     .des-2nd-pic2,
+     .des-2nd-pic3,
+     .des-3rd-pic1,
+     .des-3rd-pic2 {
+     display: block; 
+     margin-bottom: 10px; 
+  }
+  .chose-container,
+  .chose-descrip,
+  .hotel,
+  .map,
+  .price {
+    text-align: center;
+  }
+  .hotel img,
+  .map img,
+  .price img {
+    width: 100%; 
+    max-width: 200px; 
+    margin-bottom: 10px; 
+  }
+  .hotel h2,
+  .map h2,
+  .price h2,
+  .hotel p,
+  .map p,
+  .price p {
+    margin-bottom: 15px;
+  }
+  .perfect-place {
+    text-align: center; 
+  }
+
+  .perfect-place div {
+    margin-bottom: 20px; 
+  }
+
+  .perfect-place img {
+    width: 100%; 
+    margin-bottom: 10px; 
+  }
+
+  .perfect-place h2,
+  .perfect-place p,
+  .perfect-ul,
+  .perfect-li,
+  .per-btn {
+    text-align: center; 
+  }
+  .newslatter {
+    display: flex;
+    flex-direction: column; 
+    text-align: center; 
+  }
+
+  .news-content,
+  .news-img {
+    margin-bottom: 20px; 
+  }
+
+  .news-img img {
+    width: 100%; 
+  }
+
+  .news-title,
+  .news-description,
+  .li,
+  .btn-primary,
+  .travel,
+  .save {
+    text-align: center; 
+  }
+  .footer-div {
+    text-align: center; 
+  }
+
+  .footer-div p {
+    margin-bottom: 10px; /* Add spacing between paragraphs */
+  }
+
+  .first-hr,
+  .second-hr {
+    width: 50%; 
+  }
+
+  .nav-icon2 {
+    margin-bottom: 10px; 
+  }
+
+  .icon-color {
+    display: block; 
+  }
+
+  .footer-div img {
+    width: 50px; 
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+  }
+
 }
